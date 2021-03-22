@@ -1,3 +1,7 @@
+# Note
+
+Rockstar has released a new update of Grand Theft Auto 5 which includes the advantages of using this patch.
+
 # Universal GTAO Booster Auto Injector
 
 Simple Batch script for auto injecting [Universal_GTAO_Booster](https://github.com/QuickNET-Tech/Universal_GTAO_Booster) using [Injector](https://github.com/nefarius/Injector)
