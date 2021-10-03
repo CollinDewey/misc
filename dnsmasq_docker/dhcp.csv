@@ -1,0 +1,14 @@
+#This is a comment
+
+#Networking	eth0 (1-19)
+88CE46950EEC	EdgeRouter-Lite	172.16.0.1	12h
+8CEB32DF2DC0	UniFi-AP	172.16.0.2	12h
+65E3621B38CF	PI	172.16.0.3	12h
+A9F2073A139F	Network-Switch-1	172.16.0.4	12h
+85B2D35BA634	Personal-Cloud	172.16.0.5	12h
+B2B436E1434E	ObiHai	172.16.0.8	12h
+
+#Misc		eth0 (20-39)
+1759A0DE2A73	BLUE	172.16.0.20	12h
+
+#These MAC addresses are not real

@@ -1,0 +1,19 @@
+version: "3.5"
+
+services:
+  dnsmasq:
+    build: ./build
+    container_name: dnsmasq
+    volumes:
+      - ./dnsmasq.conf:/etc/dnsmasq.conf
+      - ./dhcp.csv:/dhcp.csv
+      - ./arp-scan.txt:/arp-scan.txt
+    cap_add:
+      - NET_ADMIN
+    network_mode: host
+    restart: unless-stopped
+
+#NET_ADMIN is needed for DHCP
+#But network_mode host should not be required.
+#However I did not get it working correctly myself without it.
+#Other people in my house were already complaining enough about DNS being down
