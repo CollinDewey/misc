@@ -6,7 +6,7 @@ services:
     container_name: dnsmasq
     volumes:
       - ./dnsmasq.conf:/etc/dnsmasq.conf
-      - ./dhcp.csv:/dhcp.csv
+      - ./dhcp.tsv:/dhcp.tsv
       - ./arp-scan.txt:/arp-scan.txt
     cap_add:
       - NET_ADMIN
