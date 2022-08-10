@@ -7,3 +7,6 @@ Simple Batch script for auto injecting [Universal_GTAO_Booster](https://github.c
 
 ### [dnsmasq_docker](https://terascripting.com/articles/dhcp-with-dnsmasq-docker-and-arp-scan/)
 Simple docker image for easily assigning static IPs in dnsmasq.
+
+### [light_switch_thermostat](https://terascripting.com/articles/light-switch-thermostat/)
+Light Switch Thermostat using Servos and an ESP-8266.
